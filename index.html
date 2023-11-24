@@ -1,13 +1,101 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="it">
 <head>
-  <meta charset="utf-8">
-  <title>Beauty&Home</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profumi Eleganti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        .slogan {
+            font-style: italic;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-  <app-root></app-root>
+
+    <header>
+        <h1>Profumi Eleganti</h1>
+        <p class="slogan">La tua fragranza, la tua eleganza.</p>
+    </header>
+
+    <main>
+        <img src="perfume.jpg" alt="Profumo elegante">
+
+        <p>Esplora la nostra collezione di profumi esclusivi che catturano l'eleganza e la raffinatezza.</p>
+
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Invia</button>
+        </form>
+    </main>
+
 </body>
 </html>

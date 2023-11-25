@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mailBody .= "Preferenza di contatto: $contactPreference\n";
 
     // Indirizzo email a cui inviare i dati del modulo
-    $to = "tuo-indirizzo-email@tuo-dominio.com";
+    $to = "beauty.homelover@gmail.com";
     $subject = "Nuovo modulo di contatto da Beauty & Home";
 
     // Invia l'email

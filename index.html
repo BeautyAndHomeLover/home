@@ -32,11 +32,13 @@
         img {
             max-width: 100%;
             height: auto;
-            margin:  auto; /* Aggiunto il margin "auto" per centrare l'immagine */
-          
+            display: block;
+            margin: 20px auto; /* Centra l'immagine */
         }
 
-        
+        .info-text {
+            text-align: center; /* Centra il testo */
+        }
 
         form {
             max-width: 400px;
@@ -82,9 +84,10 @@
     </header>
 
     <main>
+        <div class="info-text">
+            <p>Chiedi informazioni. Saremo lieti di assisterti!</p>
+        </div>
         <img src="1offerta-natalizia.jpg" alt="Profumo elegante">
-
-        <p>Chiedi informazioni. Saremo lieti di assisterti!</p>
 
         <form action="#" method="post">
             <label for="name">Nome:</label>
